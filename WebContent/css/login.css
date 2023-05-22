@@ -1,0 +1,46 @@
+@charset "UTF-8";
+body{
+	background-image: url(./snoopy.jpeg);
+}
+.content{
+	width: 480px;
+	height: 435px;
+	background-color: #f2ebe6;
+	margin: 0 auto;
+	border-radius: 10px;
+	filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+	border:8px double #f2ebe6;
+	padding: 0px 20px;
+}
+h2,h3{
+	color: #787472;
+	text-align: center;
+}
+label{
+	display: block;
+	color: #787472;
+}
+button{
+	display: block;
+	margin-top: 13px;
+	margin-bottom: 8px;
+	width: 100%;
+	padding: 8px;
+	background-color:#f2ebe6;
+}
+button:hover{
+	background-color: white;
+}
+input,select{
+	background-color: #f2ebe6;
+	border: none;
+	border-bottom: solid 2px #787472;
+	color: #f2ebe6;
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+}
+select{
+/*	background-color:#787472 ;*/
+	color:#787472 ;
+}
